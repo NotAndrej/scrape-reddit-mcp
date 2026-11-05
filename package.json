@@ -20,16 +20,21 @@
     "opencode"
   ],
   "author": "NotAndrej",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "engines": {
     "node": ">=18"
   },
   "files": [
-    "index.js",
-    "scripts/read_reddit.sh",
-    "README.md",
+    ".codex/config.toml",
+    ".mcp.json",
+    ".opencode/opencode.json",
+    "AGENTS.md",
+    "CLAUDE.md",
     "LICENSE",
-    "opencode-skill/SKILL.md"
+    "README.md",
+    "index.js",
+    "opencode-skill/SKILL.md",
+    "scripts/read_reddit.sh"
   ],
   "repository": {
     "type": "git",

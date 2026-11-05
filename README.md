@@ -42,3 +42,12 @@ ScrapeReddit whenever a Reddit URL is involved.
 ## License
 
 MIT
+
+## Generic agent integration (CC / OC / PI / Codex)
+
+This repo ships shared instructions in `AGENTS.md`. Harness-specific files:
+
+- **Claude Code (CC):** `.mcp.json`
+- **OpenCode (OC):** `.opencode/opencode.json` + `opencode-skill/SKILL.md`
+- **Codex:** `.codex/config.toml`
+- **Pi / others:** follow `AGENTS.md` and register the stdio server `node index.js`
