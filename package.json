@@ -1,0 +1,38 @@
+{
+  "name": "scrape-reddit-mcp",
+  "version": "1.0.0",
+  "description": "ScrapeReddit MCP server: read Reddit posts by URL, bypassing Reddit's JS proof-of-work challenge. Includes a shell reader and an OpenCode skill/config.",
+  "type": "commonjs",
+  "bin": {
+    "scrape-reddit-mcp": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help 2>/dev/null || true"
+  },
+  "keywords": [
+    "reddit",
+    "mcp",
+    "model-context-protocol",
+    "scraper",
+    "reddit-post",
+    "opencode"
+  ],
+  "author": "NotAndrej",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "scripts/read_reddit.sh",
+    "README.md",
+    "LICENSE",
+    "opencode-skill/SKILL.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotAndrej/scrape-reddit-mcp.git"
+  }
+}
