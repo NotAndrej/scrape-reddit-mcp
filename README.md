@@ -41,7 +41,9 @@ ScrapeReddit whenever a Reddit URL is involved.
 
 ## License
 
-MIT
+GPL-3.0-or-later (GNU General Public License v3.0 or later).
+
+See LICENSE for full text.
 
 ## Generic agent integration (CC / OC / PI / Codex)
 
